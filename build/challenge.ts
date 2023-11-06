@@ -1,6 +1,6 @@
 const prettyPrintWilder = (users: User[]): string[] => {
   const userStrings: string[] = users.map((user) => {
-    console.log(`${user.name} is ${user.age} years old`);
+    return `${user.name} is ${user.age} years old`;
   });
   return userStrings;
 };
